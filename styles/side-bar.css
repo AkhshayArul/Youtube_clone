@@ -1,0 +1,45 @@
+.side-bar {
+   position :fixed;
+   left :0;
+   bottom :0;
+   top : 60px;
+
+   width: 85px;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+
+}
+.side-bar div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+   margin-bottom:5px ;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.side-bar div:hover {
+   background-color: rgb(224, 222, 222);
+}
+
+.home-icon img,
+.shorts-icon img,
+.subscriptions-icon img {
+   width: 30px;
+}
+.you-icon img {
+   width: 33px;
+}
+.history-icon img{
+   width: 30px;
+}
+.side-bar p {
+   font-size: 10px;
+   margin-top: 3px;
+}
+.you-icon-img {
+   width: 40px;
+}

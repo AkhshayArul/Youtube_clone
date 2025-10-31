@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Youtube </title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" href="styles/home.css">
+      <link rel="stylesheet" href="styles/head-mast.css">
+      <link rel="stylesheet" href="styles/side-bar.css">
+
+   </head>
+
+   <body>
+      <div class="top-mast">
+         <div class="home-link"> 
+            <button>
+               <img src="icons/mast-head/hamburger-icon.svg" class="primary-icon hamburger-icon">
+            </button>
+            <button>
+               <a href="home.html">
+                  <img src="icons/mast-head/youtube-logo.svg" class="primary-icon youtube-logo" title="Youtube Home">
+               </a>   
+            </button>
+         </div>
+         <div class="top-middle-mast">
+            <div class="search-bar-container">
+               <input type="text" class="css-search-bar-home js-search-bar search-bar" placeholder="Search">
+               <div class="search-icon-container">
+                  <img src="icons/mast-head/searchglass-icon.svg" class="searchglass-icon">
+                  <div class="tooltip">Search</div>
+               </div>
+            </div>
+            <button class="mic-search-container">
+               <img src="icons/mast-head/microphone-icon.svg" class="microphone-icon">
+               <div class="tooltip">
+                  Search with your voice
+               </div>
+            </button>
+         </div>
+         <div class="top-right-mast">
+            <div class="three-dots-container" id="js-settings-button">
+               <img src="icons/mast-head/three-dots-icon.jpg" class="three-dots-icon" id="3doticon">
+               <div class="tooltip ">Settings</div>
+               
+            </div>
+            <div class="settings-dropdown-hidden" id="js-menu-dropdown">
+               <div id="apperance">Apperance : </div>
+               <div id="feedback">Feedback</div>
+            </div>
+            <button class="signin-button">
+               <img src="icons/mast-head/signin-icon.png" class="signin-icon">
+               Sign in
+            </button>
+         </div>
+      </div>
+      <div class="side-bar">
+         <a href="home.html">
+            <div class="home-icon" title="Home">
+               <img src="icons/sidebar/home-icon-active.svg">
+               <p>Home</p>
+            </div>
+         </a>
+            <a href="https://www.youtube.com/shorts/">
+            <div class="shorts-icon" title="Shorts">
+               <img src="icons/sidebar/shorts-icon.svg">
+               <p>Shorts</p>
+            </div>
+         </a>
+         <div class="subscriptions-icon" title="Subscriptions">
+            <img src="icons/sidebar/subscriptions-icon.svg" >
+            <p>Subscriptions</p>
+         </div>
+         <div class="you-icon" title="You">
+            <img src="icons/sidebar/you-icon.jpg" class="you-icon-img">
+            <p>You</p>
+         </div>
+         <div class="history-icon" title="History">
+            <img src="icons/sidebar/history-icon.webp">
+            <p>History</p>
+         </div>
+      </div>
+      
+      <div class="video-grid">
+      
+      </div>
+      
+      <script src="scripts/home.js" type="module"></script>
+   </body>
+
+</html>
